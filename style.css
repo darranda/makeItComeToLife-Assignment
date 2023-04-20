@@ -1,0 +1,59 @@
+
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #0b0b0b;
+    background-color: rgb(252, 244, 234);
+  }
+  
+ 
+  header {
+    background-color: rgb(89, 99, 96);
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    font-size: 45px;
+    color: red;
+  
+
+   }
+  
+  .button {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    
+  }
+   .players {
+    border-style: solid;
+   }
+
+  #player1, #player2 {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    margin-left: 300px;
+    text-align: center;
+    justify-items: center; 
+    font-weight: bold;
+  }
+  #player1-name, #player2-name {
+    font-size: 26px;
+    font-weight: bold;
+
+  }
+
+  #player1-hand, #player2-hand {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+  }
+ 
+  #player1-score, #player2-score {
+    font-size: 28px;
+    font-weight: bold;
+  }
